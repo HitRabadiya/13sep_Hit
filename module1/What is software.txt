@@ -1,0 +1,37 @@
+What is software?
+
+-> Software is the set of instructions,data or programs used to operate computers.
+
+What is software engineering?
+
+-> Software engineering is the process of designing,developing,testing and maintaining software.
+-> Software engineering includes a variety of techniques , tools and methodologies , including reqiurements analysis.
+
+explain types of software?
+
+-> types:
+         1. System Software:-
+         -> Operating system (OS)
+         -> ex: Android, ios, windows, linux, etc..
+
+         2. Application Software:-
+         (i) Desktop Application
+         -> ex: VS code, notepad, firefox, etc.. 
+
+         (ii) Mobile Application
+         -> ex: Instagram, netflix, snap, etc..
+
+         (iii)Web Application
+         -> ex: Web browser  
+
+         3. Programming Software:-
+         -> A program that can be written in any programming language to perform specific task.
+         -> Compiler
+         -> Interpreter
+
+         4. Deriver Software:-
+         -> ex: bluetooth deriver, audio deriver, etc..
+
+         5. Middleware Software:-
+         -> It's an intermediary software between two or more applications/software.
+         -> ex: database
