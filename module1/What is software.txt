@@ -1,11 +1,10 @@
 What is software?
 
--> Software is the set of instructions,data or programs used to operate computers.
+-> Software is a set of programs (sequence of instructions) that allows the users to perform a well-defined function or some specified task.
 
 What is software engineering?
 
--> Software engineering is the process of designing,developing,testing and maintaining software.
--> Software engineering includes a variety of techniques , tools and methodologies , including reqiurements analysis.
+-> Software engineering is defined as a process of analyzing user requirements and then designing, building, and testing software application     which will satisfy those requirements.
 
 explain types of software?
 
