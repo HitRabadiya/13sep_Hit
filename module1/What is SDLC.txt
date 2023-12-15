@@ -1,17 +1,17 @@
 1. What is SDLC? 
 
--> The software development lifecycle is the cost-effective and time-efficient process that development teams use to design and build high-quality software.
+-> It is a process followed for software building within a software organization. SDLC consists of a precise plan that describes how to develop,    maintain, replace, and enhance specific software. The life cycle defines a method for improving the quality of software and the all-around       development process. 
 
 2. Explain each phase of SDLC?
 
--> Requirement analysis :- gathering and defining the needs and specifications of the software.
+-> Requirement analysis :-  requirement analysis is also performed by the developers of the organization. This is attained from customer inputs,                             and sales department/market surveys.
 
--> Planning             :- estimating the resources, time, and cost of the project.
+-> Planning             :- Planning is a crucial step in everything, just as in software development.
 
--> Software design      :- creating the architectural and detailed design of the software.
+-> Software design      :- SRS is a reference for software designers to come up with the best architecture for the software. Hence, with the                                requirements defined in SRS, multiple designs for the product architecture are present in the Design Document                                    Specification (DDS). 
 
--> Software development :- writing and coding the software according to the design.
+-> Software development :- At this stage, the fundamental development of the product starts. For this, developers use a specific programming                                code as per the design in the DDS.
 
--> Testing              :- verifying and validating the software for functionality, quality, and performance.
+-> Testing              :- After the development of the product, testing of the software is necessary to ensure its smooth execution. Although,                             minimal testing is conducted at every stage of SDLC.
 
 -> Deployment           :- delivering and installing the software to the end-users.
