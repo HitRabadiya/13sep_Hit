@@ -1,0 +1,31 @@
+// Write a C++ Program to find Area of Rectangle using inheritance
+
+#include <iostream>
+using namespace std;
+class Shape {
+public:
+  virtual double getArea() = 0;
+};
+class Rectangle : public Shape {
+private:
+  double length;
+  double breadth;
+
+public:
+  Rectangle(double length, double breadth) {
+    this->length = length;
+    this->breadth = breadth;
+  }
+
+  double getArea() override {
+    return length * breadth;
+  }
+};
+int main() {
+  Rectangle rectangle(5, 3);
+  double area = rectangle.getArea();
+
+  cout << "Area of rectangle: " << area << endl;
+
+  return 0;
+}

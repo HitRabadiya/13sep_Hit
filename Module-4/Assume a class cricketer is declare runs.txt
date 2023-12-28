@@ -1,0 +1,33 @@
+//Assume a class cricketer is declared. Declare a derived class batsman from cricketer. Data member of batsman. Total runs, Average runs and best performance. Member functions input data, calculate average runs, Display data. (Single Inheritance)
+
+#include<iostream>
+using namespace std;
+double averageRuns(int runs,
+				int matches,
+				int notout)
+{
+	int out = matches - notout;
+	if (out == 0)
+		return -1;
+
+	double avg = double(runs) / out;
+
+	return avg;
+}
+int main()
+{
+	int runs = 10000;
+	int matches = 250;
+	int notout = 60;
+
+	double avg
+		= averageRuns(
+			runs, matches, notout);
+
+	if (avg == -1)
+		cout << "NA";
+	else
+		cout << avg;
+
+	return 0;
+}

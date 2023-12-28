@@ -1,0 +1,30 @@
+//Write a program to find the max number from given two numbers
+using friend function
+
+#include <iostream>
+using namespace std;
+class Class_A 
+{
+	private:
+   		int x, y;
+	public:
+	   void GetNumbers() 
+	   {
+       	cout << "\n\tEnter two numbers: ";
+       	cin >> x>>y;
+   	   }	
+    friend void GetLargest(Class_A t);
+};
+void GetLargest(Class_A t) 
+{
+   if (t.x > t.y) cout << "\n\tThe Largest number is: " << t.x;
+   if(t.x < t.y)  cout << "\n\tThe Largest number is: " << t.y;
+   if(t.x == t.y) cout << "\n\tBoth numbers are equal. " << t.x<<" = "<<t.y;
+}
+int main() 
+{
+   Class_A t;
+   t.GetNumbers();
+   GetLargest(t);
+   return 0;
+}
