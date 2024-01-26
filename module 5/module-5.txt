@@ -1,0 +1,56 @@
+1. What do you understand by databse?
+-> A database is an organized collection of structured information, or data, typically stored electronically in a computer system.
+
+2. What is Normalisation?
+-> Normalization is the process of organizing data in a database. 
+-> It includes creating tables and establishing relationships between those tables according to rules designed both to protect the data and to make the database more flexible by eliminating redundancy and inconsistent dependency.	
+-> There are four typesof normalisation.
+   (i)   First Normalisation Form (1NF)
+   (ii)  SECOND Normalisation Form (2NF)
+   (iii) Third Normalisation Form (3NF)
+   (iv)  Boyce & Code Normalisation Form (BYNF) 
+
+3. What is difference between DBMS & RDBMS?
+-> DBMS: full form is Databse Management System.
+	 It Stores data as files.
+	 There is no relation between data.
+	 DBMS is less secure than RDBMS.
+
+-> RDBMS: full form is Relational Database Management System.
+	  It stores data in tabular form.
+	  Stored data is related to each other.
+	  RDBMS is much secure than DBMS.
+
+4. What is MF Code Rule of RDBMS Systems? 
+-> Foundation Rule
+-> Information Rule
+-> Guaranteed access Rule
+-> Systematic Treatment of Null values
+-> Active/Dynamic online catalog based ojn the relational model
+->Comprehensive data sublanguage Rule
+-> View updating Rule
+-> Relational level operation rule
+
+5. What do you understand by data redundancy?
+-> Data redundancy is when multiple copies of the same information are stored in more than one place at a time.
+
+6. What is DDL Interpreter?
+-> It interprets the DDL (Data Definition Language) Instructions and stores the record in a data dictionary.
+-> It contains queries like create,alter,truncate and drop.
+
+7. What is DML Compiler in SQL? 
+-> DML stands for Data Manipulation Language.
+-> Tables and formulas are helpful when communicating with data stored up to a point in a database through SQL , but a time comes when we actually want to execute some fairly complicated data interactions.
+-> it contains queries like insert, update and delete.
+
+8. What is SQL Key Constraints writing and Example of SQL Key Constraints? 
+-> Primary Key
+-> Unique Key
+-> Foreign key
+
+9.What is save point? How to create a sace point write a Query?
+-> Used to save temporary transaction so that we can rollback to the point whenever reqiured
+-> syntax: SAVEPOINT SAVEPOINT_NAME
+
+10. What is trigger and how to create a Trigger in SQL?
+-> Trigger is like a kind of history or backup data of database.
