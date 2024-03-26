@@ -1,0 +1,73 @@
+1. Are the HTML tags and elements the same thing?
+-> No.
+
+2. What are tags and attributes in HTML?
+-> Tags begin with teh sign'<' and end with the sign '>'. Attributes give more information about tags.
+
+3. What are the void elements in HTML? With example.
+-> Void elements means they are only start tags. Example: <br>,<input>,<hr>,<img>.
+
+4. What are the entities? With Example.
+-> If we want to use some reserved special characters then we have to use some selected codes.We call them entities. Examples: &lt; for < , &gt; for > ,&amp for & , etc.
+
+5. What are different types of lists in HTML? With Example.
+-> There are three types of lists.
+   i. Ordered List(ol)
+   ii. Unordered List(ul)
+   iii. Data List(dl)
+
+6. What is the 'class' attribute in HTML? With example.
+-> Class atrribute is givenin man tags. Class name is used in CSS.
+   Example: <div class="classname">Content</div>
+
+7. What is the differnce between the 'id' attribute and the 'class' attribute of HTML elements? With Example.
+-> We can repeat class name in different tags but we can't repeat id name. ID name must be unique al the time.
+   Example: <div class="name" id="unique1">First</div>
+            <div class="name" id="unique2">Second</div>
+
+8. What are the various formatting tads in HTML?
+-> Formatting tags are used to style the text like bold, italic, underline, strikethrough....
+
+9. How is Cell Padding different from Cell Spacing? With example.
+-> Cell Padding is used to create a border around the content area of a web page, wheras cell spacing is used for positioning elements within that content area.
+   Example: <tr cellspacing="2"><td>Content</td></tr>
+	    <tr cellpadding="2"><td>Content</td></tr>     
+
+10. How can we club two or more rows or columns into a single row or column in an HTML table? With example.
+->  We can club rows or columns by using rowspan or colspan.
+    Example: <tr><td rowspan="3">Content</td></tr>
+             <tr colspan="2"><td>Content</td></tr> 
+
+11. What is the difference between a block-level element and an inline element?
+->  Inlie elements never begin on a new line. Block elements completely fill the accesible area from left to right.
+
+12. How to create a Hyperlink in HTML? With ecample.
+->  Anchor tag <a> is used create a hyperlink.
+    Example: <a href="link"></a>
+
+13. What is the use of an iframe tag? With example.
+->  Iframe tag specifies an inline frame. It is used to embed another document within the current html document.
+    EXAMPLE: <iframe src="embed link"><iframe>
+
+14. What is the use of span tag? With example.
+->  Span tag is used to wrap sections of text for styling purposes or to ass attributes to a secto of text without creating a new line of content.
+    Example: <p>dhhfhb fhhhguhghf <span>hduhiuhiuufhuf</span> ifiuiuuhiuhkuhiuhiuh</p>   
+
+15. How to insert a backgroung image of a web page? With exmaple.
+->  We can insert an image into backgroung with <img> tag.
+    Example: <img src="pathorlink">
+
+16. How are active links different from normal links?
+->  A normal link is just a line of code that contains a poiter to another resource. an active link is that line of code in action, opening that other resource.
+
+17. What are different tags to seperate sections of text?
+->  It is used to seperate the line of text. <br> breaks the current linrand shifts the flow of the text to a new line.
+
+18. What is SVG?
+-> SVG stands for Scalable vector Graphics. SVG is used to define vector based graphics for the web.
+
+19. What is difference between HTML and XHTML?
+->  HTML and XHTML are both markup languages used for creating and displaying web pages. The main difference between them is syntax and structure.
+
+20. What are logical and physical tags in HTML?
+->  Logical tags are used to add some logical or semantic value to text. Physical tags are used to provide the visual appearance to the text.
